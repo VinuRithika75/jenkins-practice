@@ -7,5 +7,11 @@ pipeline {
                 echo 'Hello from Jenkinsfile!'
             }
         }
+
+        stage('Build') {
+            steps {
+                echo 'Building the application...'
+            }
+        }
     }
 }
